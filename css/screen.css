@@ -346,6 +346,10 @@ td {
   padding-bottom: 0.5em;
 }
 
+#project-one {
+  color: #dedede;
+}
+
 /* ========== State ========== */
 
 .hasjs .extended {
