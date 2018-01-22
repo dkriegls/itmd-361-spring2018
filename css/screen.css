@@ -303,12 +303,15 @@ table, th, td {
 .tablehead {
 	background-color: #142736;
 	text-align: center;
+  font-weight: 700;
 }
 .tabletitle {
-	border-left: none;
-  border-right: none;
   padding-bottom: 15px;
   padding-top: 15px;
+  border-left: none;
+}
+#protable {
+  margin-bottom: 0;
 }
 tr .firstrow {
 	border-right: none;
