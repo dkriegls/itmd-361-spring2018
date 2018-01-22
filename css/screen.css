@@ -293,7 +293,7 @@ nav {
 /* Table */
 table {
 	table-layout: fixed;
-	width: 80%;
+	width: 750px;
 }
 table, th, td {
 	border: 1px solid #ddd;
@@ -305,10 +305,13 @@ table, th, td {
 }
 .tabletitle {
 	border-left: none;
+  border-right: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 tr .firstrow {
 	border-right: none;
-	width: 70px;
+	width: 75px;
 }
 tr .secondrow {
 	text-align: left;
@@ -320,8 +323,15 @@ td a {
 td {
 	text-align: center;
 }
+.nobullet {
+  list-style: none;
+}
 .alignleft {
 	text-align: left;
+  padding-top: 5px;
+}
+.short {
+  width: 120px;
 }
 .redfont {
 	color: red;
