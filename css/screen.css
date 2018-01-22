@@ -294,6 +294,7 @@ nav {
 table {
 	table-layout: fixed;
 	width: 750px;
+  margin-bottom: 1em;
 }
 table, th, td {
 	border: 1px solid #ddd;
