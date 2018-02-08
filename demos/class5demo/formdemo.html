@@ -5,14 +5,17 @@
 	<title>Document</title>
 </head>
 <body>
-	<form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+	<form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
 	<fieldset>
 	<legend>Text Entry Controls</legend>
 		<p>
-			<label>First Name: <input type="text" name="text_field" placeholder="first name"></label>
+			<label>First Name: <input type="text" name="text_field" placeholder="first name" ></label>
 		</p>
+    <p>
+      <label><input type="email" name="email_field" placeholder="email here"></label>
+    </P>
 		<p>
-		<label for="our_textarea">Comments:</label><br>
+		<label for="our_textarea">Comments:</label>
 			<textarea cols="30" rows="10" name="textarea_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
 		</p>
 		<p>
@@ -26,8 +29,8 @@
 		</p>
 		<p>
 			<label>Red: <input type="checkbox" name="checkbox_field[]" value="red"></label><br>
-			<label>Blue: <input type="checkbox" name="checkbox_field[]" value="blue" checked></label><br>
-			<label>Green: <input type="checkbox" name="checkbox_field[]" value="green"></label><br>
+			<label>Blue: <input type="checkbox" name="checkbox_field[]" value="blue" ></label><br>
+			<label>Green: <input type="checkbox" name="checkbox_field[]" value="green" checked></label><br>
 			<label>Yellow: <input type="checkbox" name="checkbox_field[]" value="dog"></label>
 		</p>
 		<p>
@@ -38,7 +41,7 @@
 			</select>
 		</p>
 		<p>
-			<select size="3" multiple="multiple" name="menu_field[]">
+			<select size="7" multiple="multiple" name="menu_field[]">
 				<optgroup label="Primary">
 				<option value="R">Red</option>
 				<option value="G" selected>Green</option>
