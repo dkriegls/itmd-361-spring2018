@@ -21,7 +21,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 #main-header #company-name {
 	float: left;
 	margin-top: 40px;
-	font-family: 'Fascinate Inline', cursive;
+	font-family: 'Knewave', Precious, cursive;
 	font-size: 32px;
 	color: #fff;
 }
@@ -93,9 +93,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
 
 #main-navbar #onpage {
   text-decoration: underline;
-  background-color: none;
 }
 
-h1 {
+h2 {
 	text-align: center;
 }
